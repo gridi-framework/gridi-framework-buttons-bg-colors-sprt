@@ -1,0 +1,11 @@
+$buttons-background-colors-support-parser: (
+    border-color: 'background-inner-color',
+    hover-border-color: 'hover-background-inner-color',
+    background: 'background-inner-color',
+    hover-background: 'hover-background-inner-color',
+    color: color,
+    hover-color: 'hover-color'
+) !default;
+
+$buttons-background-colors-support-extra-colors-palette: () !default;
+$buttons-background-colors-support-skip-colors-palette: null !default;

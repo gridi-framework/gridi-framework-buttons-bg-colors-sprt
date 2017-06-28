@@ -1,0 +1,5 @@
+@each $palette-color-prefix, $palette-color-variables in get-background-colors-palette($buttons-background-colors-support-extra-colors-palette, $buttons-background-colors-support-skip-colors-palette) {
+    .#{$background-colors-class-prefix}-#{$palette-color-prefix} {
+        @include buttons-colors(parse-map($buttons-background-colors-support-parser, $palette-color-variables));
+    }
+}
