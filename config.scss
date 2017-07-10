@@ -9,3 +9,23 @@ $buttons-background-colors-support-parser: (
 
 $buttons-background-colors-support-extra-colors-palette: () !default;
 $buttons-background-colors-support-skip-colors-palette: null !default;
+
+//Support for screens (gridi-framework-bg-colors-scrns-sprt)
+//Background colors from
+$buttons-background-colors-support-screens-support-generate-from-classes: true !default;
+$buttons-background-colors-support-screens-support-from-classes-skip-screens: null !default;
+
+$buttons-background-colors-support-screens-support-from-extra-colors-palette: $buttons-background-colors-support-extra-colors-palette !default;
+$buttons-background-colors-support-screens-support-from-skip-colors-palette: $buttons-background-colors-support-skip-colors-palette !default;
+//Background colors to
+$buttons-background-colors-support-screens-support-generate-to-classes: true !default;
+$buttons-background-colors-support-screens-support-to-classes-skip-screens: null !default;
+
+$buttons-background-colors-support-screens-support-to-extra-colors-palette: $buttons-background-colors-support-extra-colors-palette !default;
+$buttons-background-colors-support-screens-support-to-skip-colors-palette: $buttons-background-colors-support-skip-colors-palette !default;
+//Background colors only
+$buttons-background-colors-support-screens-support-generate-only-classes: true !default;
+$buttons-background-colors-support-screens-support-only-classes-skip-screens: null !default;
+
+$buttons-background-colors-support-screens-support-only-extra-colors-palette: $buttons-background-colors-support-extra-colors-palette !default;
+$buttons-background-colors-support-screens-support-only-skip-colors-palette: $buttons-background-colors-support-skip-colors-palette !default;
