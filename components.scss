@@ -37,10 +37,10 @@
             @if index($background-colors-screens-support-to-classes-skip-screens, $screen-prefix) == null and index($buttons-background-colors-support-screens-support-to-classes-skip-screens, $screen-prefix) == null {
                 @media(max-width: get-screen-size($screen-prefix, max)) {
                     @each $palette-color-prefix, $palette-color-variables in get-background-colors-palette(map-merge($background-colors-screens-support-to-extra-colors-palette, $buttons-background-colors-support-screens-support-to-extra-colors-palette), join($background-colors-screens-support-to-skip-colors-palette, $buttons-background-colors-support-screens-support-to-skip-colors-palette)) {
-                            .to-#{$screen-prefix}-#{$background-colors-class-prefix}-#{$palette-color-prefix} {
-                                @include buttons-colors(parse-map($buttons-background-colors-support-parser, $palette-color-variables));
-                            }
+                        .to-#{$screen-prefix}-#{$background-colors-class-prefix}-#{$palette-color-prefix} {
+                            @include buttons-colors(parse-map($buttons-background-colors-support-parser, $palette-color-variables));
                         }
+                    }
                 }
             }
         }
